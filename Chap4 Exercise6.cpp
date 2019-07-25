@@ -52,6 +52,7 @@ int main()
 
   cout << "enter a number either in string format or char\n";
 
+
   cin >> input;
 
 

@@ -1,0 +1,148 @@
+/Users/dharmick/github/PPP/test 2.cpp:47:1: error: non-ASCII characters are not allowed outside of literals and identifiers
+“int main()
+^
+/Users/dharmick/github/PPP/test 2.cpp:53:13: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+            ^
+/Users/dharmick/github/PPP/test 2.cpp:53:15: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+             ^
+/Users/dharmick/github/PPP/test 2.cpp:53:17: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+              ^
+/Users/dharmick/github/PPP/test 2.cpp:53:19: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+               ^
+/Users/dharmick/github/PPP/test 2.cpp:53:21: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+                ^
+/Users/dharmick/github/PPP/test 2.cpp:53:23: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+                 ^
+/Users/dharmick/github/PPP/test 2.cpp:53:25: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+                  ^
+/Users/dharmick/github/PPP/test 2.cpp:53:27: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+                   ^
+/Users/dharmick/github/PPP/test 2.cpp:53:29: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+                    ^
+/Users/dharmick/github/PPP/test 2.cpp:53:31: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+                     ^
+/Users/dharmick/github/PPP/test 2.cpp:53:33: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+                      ^
+/Users/dharmick/github/PPP/test 2.cpp:53:35: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+                       ^
+/Users/dharmick/github/PPP/test 2.cpp:53:37: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+                        ^
+/Users/dharmick/github/PPP/test 2.cpp:53:39: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+                         ^
+/Users/dharmick/github/PPP/test 2.cpp:53:41: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+                          ^
+/Users/dharmick/github/PPP/test 2.cpp:53:43: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+                           ^
+/Users/dharmick/github/PPP/test 2.cpp:53:45: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+  cin>>lval;                 
+                            ^
+/Users/dharmick/github/PPP/test 2.cpp:58:20: error: invalid operands to binary expression ('std::__1::ostream' (aka 'basic_ostream<char>') and 'const char [18]')
+    if (!cin) cout >>"no second operand";
+              ~~~~ ^ ~~~~~~~~~~~~~~~~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:521:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:570:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:578:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:585:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:613:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:621:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:1287:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:1419:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+^
+/Users/dharmick/github/PPP/test 2.cpp:63:12: error: character too large for enclosing character literal type
+      case '–':
+           ^
+/Users/dharmick/github/PPP/test 2.cpp:64:12: error: non-ASCII characters are not allowed outside of literals and identifiers
+      lval –= rval;
+           ^
+/Users/dharmick/github/PPP/test 2.cpp:72:15: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+              ^
+/Users/dharmick/github/PPP/test 2.cpp:72:17: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+               ^
+/Users/dharmick/github/PPP/test 2.cpp:72:19: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                ^
+/Users/dharmick/github/PPP/test 2.cpp:72:21: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                 ^
+/Users/dharmick/github/PPP/test 2.cpp:72:23: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                  ^
+/Users/dharmick/github/PPP/test 2.cpp:72:25: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                   ^
+/Users/dharmick/github/PPP/test 2.cpp:72:27: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                    ^
+/Users/dharmick/github/PPP/test 2.cpp:72:29: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                     ^
+/Users/dharmick/github/PPP/test 2.cpp:72:31: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                      ^
+/Users/dharmick/github/PPP/test 2.cpp:72:33: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                       ^
+/Users/dharmick/github/PPP/test 2.cpp:72:35: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                        ^
+/Users/dharmick/github/PPP/test 2.cpp:72:37: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                         ^
+/Users/dharmick/github/PPP/test 2.cpp:72:39: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                          ^
+/Users/dharmick/github/PPP/test 2.cpp:72:41: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                           ^
+/Users/dharmick/github/PPP/test 2.cpp:72:43: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                            ^
+/Users/dharmick/github/PPP/test 2.cpp:72:45: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                             ^
+/Users/dharmick/github/PPP/test 2.cpp:72:47: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                              ^
+/Users/dharmick/github/PPP/test 2.cpp:72:49: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                               ^
+/Users/dharmick/github/PPP/test 2.cpp:72:51: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                                ^
+/Users/dharmick/github/PPP/test 2.cpp:72:53: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+      default:                    
+                                 ^
+37 warnings and 4 errors generated.

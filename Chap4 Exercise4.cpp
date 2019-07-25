@@ -26,12 +26,12 @@ int main()
     if (answer=='l') {
       min=guess;
       guess=min+(max-min)/2;
-      cout <<guess;
+
     }
     else if (answer=='s'){
       max=guess;
       guess=max-(max-min)/2;
-      cout << guess;
+      
     }
 
   }
